@@ -68,7 +68,6 @@ Windows でも Mac でも良いです。
 1. 【コピペ】 Speaker クラスの中に、以下のプロパティを追加してください。
 
 ```csharp
-public string Id { get; set; }
 public string Name { get; set; }
 public string Description { get; set; }
 public string Website { get; set; }
