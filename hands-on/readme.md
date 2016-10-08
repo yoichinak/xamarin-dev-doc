@@ -345,7 +345,7 @@ set
 ```
 
 ## ユーザーインターフェース!!!
-さて、最初の Xamarin.Forms ユーザーインタフェースとして、*View/SpeakersPage.xaml** を作っていきましょう。
+さて、最初の Xamarin.Forms ユーザーインタフェースとして、**View/SpeakersPage.xaml** を作っていきましょう。
 
 ### SpeakersPage.xaml
 
