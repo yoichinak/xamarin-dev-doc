@@ -581,7 +581,7 @@ Mobile Apps のセットアップが完了するまでに 3～5 分ほど掛か�
 ### App.cs のアップデート
 Azure バックエンドを私たちのモバイルアプリに追加するために、以前のプレゼンテーションで見た [Azure App Service Helpers library](https://www.nuget.org/packages/AppService.Helpers/1.1.1-beta) のたった4行のコードを使用します。
 
-DevDaysSpeakers/App.cs ファイルの Azure Client のコンストラクターの上に、Static プロパティを追加しましょう:
+DevDaysSpeakers/App.cs ファイルのコンストラクターの上に Azure Client のための Static プロパティを追加しましょう:
 
 ```csharp
 public static IEasyMobileServiceClient AzureClient { get; set; }
